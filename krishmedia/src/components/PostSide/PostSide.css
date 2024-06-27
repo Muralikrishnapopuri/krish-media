@@ -1,0 +1,64 @@
+.PostSide{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: 100vh;
+    overflow: auto;
+    position: relative;
+
+}
+
+.Nav{
+    position: absolute;
+    position: fixed;
+    background-color: white;
+    justify-self: center;
+    top:34rem;
+    padding: 10px;
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 2px 2px 7px black;
+  }
+  .Nav>a>img{
+  width: 5rem;
+  height: 2rem;
+  border-radius: 50%;
+  }
+  .Nav>a>svg{
+    font-size: 2rem;
+    
+  } 
+  @media screen and (min-width:1200px) and (max-width:2036px) {
+    .Nav{
+        left:30rem;
+    }
+  }
+  @media screen and (min-width:900px) and (max-width:1200px) {
+    .Nav{
+        left:27rem;
+    }
+  }
+  @media screen and (min-width:600px) and (max-width:900px) {
+    .Nav{
+        left:17rem;
+    }
+  }
+  @media screen and (min-width:400px) and (max-width:600px) {
+    .Nav{
+        left:9rem;
+    }
+  }
+  @media screen and (min-width:200px) and (max-width:400px) {
+    .Nav{
+        left:3.2rem;
+    }
+  }
+  @media screen and (min-width:0px) and (max-width:200px) {
+    .Nav{
+        left:3rem;
+    }
+  }

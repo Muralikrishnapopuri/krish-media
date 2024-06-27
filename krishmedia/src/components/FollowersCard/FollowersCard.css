@@ -1,0 +1,123 @@
+
+.FollowersCard{
+    width: 100%;
+    border-radius: 0.7rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    position: relative;
+    background-color: white;
+    padding:20px;
+   
+
+    
+    
+}
+
+.follower{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  margin-right: 30px;
+   
+    
+}
+
+.divv{
+    display: flex;
+    gap: 10px;
+
+}
+
+
+.followerImage{
+    width: 2.6rem;
+    height: 2.6rem;
+    border-radius: 50%;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.name>span:nth-of-type(1){
+    font-weight:700;
+}
+
+
+.fc-button{
+    height: 2rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.UnfollowButton {
+    color:rgb(255, 0, 140);
+    border: 2px solid var(--orange);
+    cursor: pointer;
+    background: transparent;
+}
+
+
+
+
+.Nav{
+    position: absolute;
+    position: fixed;
+    background-color: white;
+    justify-self: center;
+    top:34rem;
+    padding: 10px;
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 2px 2px 7px black;
+  }
+  .Nav>a>img{
+  width: 2rem;
+  border-radius: 50%;
+  }
+  .Nav>a>svg{
+    font-size: 2rem;
+  } 
+  @media screen and (min-width:1200px) and (max-width:2036px) {
+    .Nav{
+        left:30rem;
+    }
+  }
+  @media screen and (min-width:900px) and (max-width:1200px) {
+    .Nav{
+        left:27rem;
+    }
+  }
+  @media screen and (min-width:600px) and (max-width:900px) {
+    .Nav{
+        left:17rem;
+    }
+  }
+  @media screen and (min-width:400px) and (max-width:600px) {
+    .Nav{
+        left:9rem;
+    }
+  }
+  @media screen and (min-width:200px) and (max-width:400px) {
+    .Nav{
+        left:3.2rem;
+    }
+  }
+  @media screen and (min-width:0px) and (max-width:200px) {
+    .Nav{
+        left:3rem;
+        
+    }
+  }
+  
+  
+  
